@@ -7,17 +7,24 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            'FsBlog'
-tagline:          'Blogging FSharp'
-description:      ''
-url:              https://github.com/colinbull/FsBlog
+title:            post |> blog
+tagline:          
+description:      
+url:              
 baseurl:          /
 
 author:
-  name:           'FsBlog'
+  name:           'Jared Hester'
   url:            
 
 paginate:         5
 
+# Custom vars
+version:         
+
 github:
-  repo:           https://github.com/colinbull/FsBlog
+  repo:           
+
+
+exclude: [  packages, cloudroutine.blog, tools, paket.*, 
+            Gemfile.*, Gemfile, LICENSE.md,publish.bat, README.md ]
